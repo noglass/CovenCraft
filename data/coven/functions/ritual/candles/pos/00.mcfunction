@@ -1,0 +1,12 @@
+execute if score @s coven.candle matches 0 positioned ~3 ~ ~ run function coven:ritual/candles/color
+execute if score @s coven.candle matches 1 positioned ~3 ~ ~1 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 2 positioned ~2 ~ ~2 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 3 positioned ~1 ~ ~3 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 4 positioned ~ ~ ~3 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 5 positioned ~-1 ~ ~3 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 6 positioned ~-2 ~ ~2 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 7 positioned ~-3 ~ ~1 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 8 positioned ~-3 ~ ~ run function coven:ritual/candles/color
+execute if score @s coven.candle matches 9 positioned ~-3 ~ ~-1 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 10 positioned ~-2 ~ ~-2 run function coven:ritual/candles/color
+execute if score @s coven.candle matches 11 positioned ~-1 ~ ~-3 run function coven:ritual/candles/color

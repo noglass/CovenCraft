@@ -1,0 +1,258 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": { "block": { "tag": "coven:crying_amethyst" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": 1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": -1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetZ": 1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetZ": 1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetZ": -1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetZ": -1,
+        "predicate": { "block": { "tag": "coven:obsid" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "offsetZ": 1,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 2,
+        "offsetZ": 2,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetZ": 3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": 3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetZ": 3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -2,
+        "offsetZ": 2,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "offsetZ": 1,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "offsetZ": -1,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -2,
+        "offsetZ": -2,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetZ": -3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetZ": -3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetZ": -3,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 2,
+        "offsetZ": -2,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "offsetZ": -1,
+        "predicate": { "block": { "block": "minecraft:basalt", "axis": "y" } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "offsetY": 1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "offsetY": 1,
+        "offsetZ": 1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 2,
+        "offsetY": 1,
+        "offsetZ": 2,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": 1,
+        "offsetZ": 3,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "offsetZ": 3,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": 1,
+        "offsetZ": 3,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -2,
+        "offsetY": 1,
+        "offsetZ": 2,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "offsetY": 1,
+        "offsetZ": 1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "offsetY": 1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -3,
+        "offsetY": 1,
+        "offsetZ": -1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -2,
+        "offsetY": 1,
+        "offsetZ": -2,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "offsetY": 1,
+        "offsetZ": 1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": -1,
+        "offsetY": 1,
+        "offsetZ": -3,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "offsetZ": -3,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 1,
+        "offsetY": 1,
+        "offsetZ": -3,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 2,
+        "offsetY": 1,
+        "offsetZ": -2,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetX": 3,
+        "offsetY": 1,
+        "offsetZ": -1,
+        "predicate": { "block": { "tag": "minecraft:candles", "candles": 1 } }
+    }
+]
+
