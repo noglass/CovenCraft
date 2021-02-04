@@ -3,3 +3,4 @@ scoreboard objectives add coven.ritual dummy
 scoreboard objectives add coven.light dummy
 scoreboard objectives add coven.candle dummy
 scoreboard objectives add coven.cooldown dummy
+function coven:ritual/spells/init
