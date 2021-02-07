@@ -4,4 +4,4 @@ execute if score #match coven.light matches 0 store result score #spellid coven.
 execute if score #match coven.light matches 0 store result score #reqtier coven.light run data get storage coven:ritual TempSpells[-1].Tier
 execute if score #match coven.light matches 0 run data modify entity @e[tag=coven.ritual_marker,distance=..0.1,limit=1] CustomName set from storage coven:ritual TempSpells[-1].Name
 execute if score #match coven.light matches 1 run data remove storage coven:ritual TempSpells[-1]
-execute if score #match coven.light matches 1 if score #count coven.light matches 1.. run function coven:ritual/spells/search
+execute if score #match coven.light matches 1 if score #count coven.light matches 1.. run function coven:ritual/spells/validate/search
