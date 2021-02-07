@@ -8,5 +8,5 @@ data modify storage coven:ritual IdentityItemTest3 set from storage coven:ritual
 data modify storage coven:ritual IdentityPosFound set value []
 data modify storage coven:ritual IdentityItemFound set value []
 execute store result score #count coven.light if data storage coven:ritual IdentityPosTest[]
-execute if score #count coven.light matches 1.. run function coven:ritual/link/filteritem
+execute if score #count coven.light matches 1.. run function coven:ritual/link/filteritemtier
 execute store result score #count coven.light if data storage coven:ritual IdentityPosFound[]
