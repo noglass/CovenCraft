@@ -7,4 +7,6 @@ scoreboard objectives add coven.lue dummy
 scoreboard objectives add coven.spell dummy
 scoreboard objectives add coven.dim dummy
 scoreboard players add #next coven.dim 0
+scoreboard players set #neg100 coven.light -200
+scoreboard players set #neg24000 coven.light -24000
 function coven:ritual/spells/init

@@ -18,7 +18,8 @@ data modify storage coven:ritual IdentityPosTest3 set from entity @s Pos
 execute store result score #count coven.light if data storage coven:ritual IdentityPosTest[]
 execute if score #count coven.light matches 1.. run function coven:ritual/link/filterpos
 execute if data storage coven:ritual IdentityPosFound[] run function coven:ritual/link/activate
-data remove storage coven:ritual ListSort
-data modify storage coven:ritual ListSort set from entity @s Item.tag.Items
+data modify storage coven:ritual ListSort set value []
+execute if data entity @s Item.tag.covenIngredients run data modify storage coven:ritual ListSort set from entity @s Item.tag.Items
+execute unless data storage coven:ritual ListSort[0] run data modify storage coven:ritual ListSort append from entity @s Item
 data remove entity @s Item.id
-function coven:ritual/spells/validate/spell
+execute if data storage coven:ritual ListSort[0] run function coven:ritual/spells/validate/spell
