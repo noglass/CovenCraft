@@ -10,7 +10,8 @@ execute store result storage coven:ritual TelePos[0] double 0.1 run scoreboard p
 execute store result storage coven:ritual TelePos[1] double 0.1 run scoreboard players get @s coven.light
 execute store result storage coven:ritual TelePos[2] double 0.1 run scoreboard players get @s coven.lue
 tag @s add coven.guided
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:0,Tags:["coven.guide"]}
+execute store result score #dimension coven.dim run data get storage coven:ritual IdentityPosFound[0].Dimension
+execute as @e[tag=coven.dimension] at @s if score @s coven.dim = #dimension coven.dim run summon minecraft:area_effect_cloud -30000000 ~ 8880 {Duration:0,Tags:["coven.guide"]}
 execute as @e[tag=coven.guide,limit=1] run function coven:ritual/spells/masstp/target
 tag @s remove coven.guided
 tag @s remove coven.extract
